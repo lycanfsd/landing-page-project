@@ -147,3 +147,43 @@ button {
     margin-right: 100px;
     align-self: flex-end;
 }
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 10px;
+}
+
+.callbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 20px 80px;
+    gap: 90px;
+}
+
+.container > .callheader {
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: medium;
+    margin-bottom: 0;
+}
+
+.container > .calltxt {
+    color: #E5E7EB;
+    font-size: small;
+    margin-top: 2px;
+}
+
+.callbar > button {
+    border: solid 2px #F9FAF8;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+}
