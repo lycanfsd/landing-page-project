@@ -8,7 +8,7 @@ body {
 .section-one {
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 20px 100px;
+    padding: 20px 100px 120px;
 }
 
 .header {
@@ -30,17 +30,29 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 40px;
 }
 
 .img-placeholder {
     background-color: grey;
-    padding: 60px 90px;
+    padding: 70px 70px;
+    flex: 0 0 auto;
 }
 
 .hero-main-txt {
     font-size: 48px;
     font-weight: bolder;
     display: flex;
+    flex-wrap: wrap;
+}
+
+.header-secondary-txt {
+    text-align: left;
+    display: flex;
+    white-space: nowrap;
+    min-width: 200px;
+    min-height: 200px;
+
 }
 
 a {
@@ -56,4 +68,45 @@ button {
     color: #F9FAF8;
     font-weight: bold;
     border: none;
+}
+
+.section-two {
+    color: #1F2937;
+    padding: 20px 100px;
+}
+
+.info-header {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.img-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+
+.card-img {
+    border: solid 6px #3882F6;
+    background-color: #F9FAF8;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.subtext {
+    font-size: 20px;
+    display: block;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 100px;
+    width: 200px;
+    margin: 0px 28px;
 }
