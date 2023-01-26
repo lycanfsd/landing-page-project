@@ -1,4 +1,4 @@
-body {
+body {    
     display: flex;
     flex-direction: column;
     font-family: "Roboto", helvetica, sans-serif;
@@ -109,4 +109,41 @@ button {
     height: 100px;
     width: 200px;
     margin: 0px 28px;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    max-width: 900px;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-author {
+    display: flex;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 0px;
+    padding-bottom: 100px;
+    margin-right: 100px;
+    align-self: flex-end;
 }
