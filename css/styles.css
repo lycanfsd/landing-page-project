@@ -9,7 +9,7 @@ body {
 }
 
 .section-one {
-    background-color: #1F2937;
+    background-color: #130303;
     color: #F9FAF8;
     padding: 20px 100px 120px;
     display: flex;
@@ -21,16 +21,29 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-bottom: 80px;
 }
 
 .header-logo {
-    font-size: 24px;
+    height: 70px;
+    width: auto;
 }
 
 .header-links {
     display: flex;
+    align-items: center;
     gap: 25px;
+}
+
+.header-links > .login {
+    background-color: #7c3626;
+    outline: solid 1px #E5E7EB;
+}
+
+.header-links > .signup {
+    background-color: #f5853f;
+    outline: solid 1px #E5E7EB;
 }
 
 .hero {
@@ -42,8 +55,11 @@ body {
 
 .img-placeholder {
     background-color: grey;
-    padding: 100px 100px;
+    padding: 0px 0px;
     flex: 0 0 auto;
+    height: 400px;
+    width: auto;
+    box-shadow: 10px 10px #2D080A;
 }
 
 .hero-main-txt {
