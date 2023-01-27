@@ -174,7 +174,7 @@ button {
     justify-content: center;
     align-items: center;
     padding-top: 100px;
-    max-width: 900px;
+    max-width: 1000px;
 }
 
 .quote-section {
@@ -201,13 +201,14 @@ button {
     align-items: center;
     padding: 80px 10px;
     flex: 1;
+    background-color: #130303;
 }
 
 .callbar {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3882F6;
+    background-color: #7c3626;
     border-radius: 5px;
     padding: 20px 80px;
     gap: 90px;
@@ -236,7 +237,7 @@ button {
 }
 
 .section-five {
-    background-color: #1F2937;
+    background-color: #130303;
     display: flex;
     justify-content: center;
     align-items: center;
