@@ -15,8 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: space-between;
-    flex: 1;
+    align-items: center;
 }
 
 .header {
@@ -60,6 +59,12 @@ body {
     min-width: 200px;
     min-height: 200px;
 
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
 }
 
 a {
