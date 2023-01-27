@@ -200,3 +200,14 @@ button {
     flex: 0 0 auto;
 }
 
+.section-five {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.footer > p {
+    color: #E5E7EB;
+}
