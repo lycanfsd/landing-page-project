@@ -92,14 +92,18 @@ a {
 button {
     padding: 8px 20px;
     border-radius: 8px;
-    background-color: #3882F6;
+    background-color: #f5853f;
     color: #F9FAF8;
     font-weight: bold;
     border: none;
+    outline: solid 1px #E5E7EB;
+    width: 200px;
+    height: auto;
 }
 
 .section-two {
-    color: #1F2937;
+    background-color: #130303;
+    color: #F9FAF8;
     padding: 20px 100px;
     display: flex;
     flex-direction: column;
@@ -126,7 +130,7 @@ button {
 
 
 .card-img {
-    border: solid 4px #3882F6;
+    border: solid 4px #f5853f;
     background-color: #F9FAF8;
     height: 150px;
     width: 150px;
@@ -153,9 +157,9 @@ button {
 }
 
 .section-three {
-    background-color: #E5E7EB;
+    background-color: #130303;
     display: flex;
-    margin-top: 50px;
+    margin-top: 0px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -165,7 +169,7 @@ button {
 .quote {
     font-size: 36px;
     font-style: italic;
-    color: #1F2937;
+    color: #F9FAF8;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -188,6 +192,7 @@ button {
     padding-bottom: 100px;
     margin-right: 100px;
     align-self: flex-end;
+    color: #F9FAF8;
 }
 
 .section-four {
@@ -243,3 +248,14 @@ button {
 .footer > p {
     color: #E5E7EB;
 }
+
+
+/* IMAGE CREDITS
+
+Hero Image by Gustavo Pires Bertaco from Pixabay
+Card #1 Image Rizaldy Reza from Pixabay 
+Card #2 Image by Azmi Talib from Pixabay
+Card #3 Image by Xavier Espinosa from Pixabay
+Card #4 Image by anijom from Pixabay
+
+*/
