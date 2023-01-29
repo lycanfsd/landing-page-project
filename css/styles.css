@@ -46,6 +46,16 @@ body {
     outline: solid 1px #E5E7EB;
 }
 
+.signup:hover {
+    background-color: transparent;
+    border: 2px solid #f5853f;
+}
+
+.login:hover {
+    background-color: transparent;
+    border: 2px solid #f5853f;
+}
+
 .hero {
     display: flex;
     justify-content: center;
@@ -87,6 +97,12 @@ a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+    transition: 0.4s;
+}
+
+a:hover {
+    color: #f5853f;
+    font-weight: bold;
 }
 
 button {
@@ -99,6 +115,12 @@ button {
     outline: solid 1px #E5E7EB;
     width: 200px;
     height: auto;
+    transition: 0.4s;
+}
+
+button:hover {
+    background-color: transparent;
+    border: 2px solid #f5853f;
 }
 
 .section-two {
